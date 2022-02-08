@@ -1,8 +1,6 @@
-function mostrar()
-{
-
-	var repetciones = prompt("ingrese el número de repeticiones");
-	alert("ok");
-
-
-}//FIN DE LA FUNCIÓN
+function mostrar() {
+	var repetciones = prompt('ingrese el número de repeticiones');
+	for (let i = 1; i <= repetciones; i++) {
+		document.write('Hola UTN FRA ' + '<br>')
+	}
+} //FIN DE LA FUNCIÓN
